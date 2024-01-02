@@ -1,0 +1,42 @@
+{
+  "transactions": [
+    {
+      "transaction": "Depósito",
+      "amount": "150",
+      "data": "18/11/2022",
+      "mont": "Novembro",
+      "id": 1
+    },
+    {
+      "transaction": "Depósito",
+      "amount": "100",
+      "data": "21/11/2022",
+      "mont": "Novembro",
+      "id": 2
+    },
+    {
+      "transaction": "Depósito",
+      "amount": "500",
+      "data": "05/01/2023",
+      "mont": "Janeiro",
+      "id": 3
+    },
+    {
+      "transaction": "Transferência",
+      "amount": "1500",
+      "data": "05/01/2023",
+      "mont": "Janeiro",
+      "id": 4
+    },
+    {
+      "transaction": "Transferência",
+      "amount": "250",
+      "data": "05/01/2023",
+      "mont": "Janeiro",
+      "id": 5
+    }
+  ],
+  "balance": {
+    "amount": 3750
+  }
+}
