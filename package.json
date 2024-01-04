@@ -1,18 +1,23 @@
 {
-  "name": "api-bytebank",
+  "name": "lowdb-api-bytebank",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "json-server --watch ./db.json",
-    "start-api": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js --ignore db.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.1",
-    "json-server": "^0.17.1",
-    "jsonwebtoken": "^9.0.0"
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "lowdb": "^5.1.0",
+    "nodemon": "^2.0.20",
+    "uuid": "^9.0.0"
   }
 }

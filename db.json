@@ -1,42 +1,78 @@
 {
-  "transactions": [
+  "users": [
     {
-      "transaction": "Depósito",
-      "amount": "150",
-      "data": "18/11/2022",
-      "mont": "Novembro",
-      "id": 1
+      "id": "40a41438-84a6-4b4d-ae1d-7f1713d0a9fe",
+      "name": "Kayo Ennrique",
+      "email": "kayo.ennrique@hotmail.com.br",
+      "password": "123456",
+      "transactions": [
+        {
+          "id": "788f434b-11ee-451d-b968-02d203bfc81a",
+          "typeTransaction": "Depósito",
+          "amount": "100",
+          "data": "16/02/2023",
+          "month": "Fevereiro"
+        },
+        {
+          "id": "745fed04-dd02-4e45-821e-166f524d1fb2",
+          "typeTransaction": "Depósito",
+          "amount": "500",
+          "data": "17/02/2023",
+          "month": "Fevereiro"
+        },
+        {
+          "id": "78c5d8c3-6f46-41d1-9152-7c2474bcd473",
+          "typeTransaction": "Transferência",
+          "amount": "360",
+          "data": "17/02/2023",
+          "month": "Fevereiro"
+        },
+        {
+          "id": "70eeaa13-cef8-4ad6-aa00-7dce77567748",
+          "typeTransaction": "Depósito",
+          "amount": "200",
+          "data": "01/03/2023",
+          "month": "Março"
+        }
+      ],
+      "balance": 2340
     },
     {
-      "transaction": "Depósito",
-      "amount": "100",
-      "data": "21/11/2022",
-      "mont": "Novembro",
-      "id": 2
-    },
-    {
-      "transaction": "Depósito",
-      "amount": "500",
-      "data": "05/01/2023",
-      "mont": "Janeiro",
-      "id": 3
-    },
-    {
-      "transaction": "Transferência",
-      "amount": "1500",
-      "data": "05/01/2023",
-      "mont": "Janeiro",
-      "id": 4
-    },
-    {
-      "transaction": "Transferência",
-      "amount": "250",
-      "data": "05/01/2023",
-      "mont": "Janeiro",
-      "id": 5
+      "id": "c691fd15-dcd5-4f24-89da-cdfa3cef9d67",
+      "name": "Kamylla Barreto",
+      "email": "Kamylla@email.com",
+      "password": "789456",
+      "transactions": [
+        {
+          "id": "b0411964-c8d4-4742-ad6d-15bb35b71b97",
+          "typeTransaction": "Depósito",
+          "amount": "5000",
+          "data": "17/02/2023",
+          "month": "Fevereiro"
+        },
+        {
+          "id": "f065a917-d283-4075-bbc3-4e1b3d8d1f3a",
+          "typeTransaction": "Depósito",
+          "amount": "1500",
+          "data": "17/02/2023",
+          "month": "Fevereiro"
+        },
+        {
+          "id": "a4baa8f0-66ea-46e7-bd20-cac5fef2065d",
+          "typeTransaction": "Depósito",
+          "amount": "100",
+          "data": "03/01/2024",
+          "month": "Janeiro"
+        },
+        {
+          "id": "38a84be7-dfac-464e-9893-8289e7e40e71",
+          "typeTransaction": "Transferência",
+          "amount": "200",
+          "data": "03/01/2024",
+          "month": "Janeiro"
+        }
+      ],
+      "balance": 3500
     }
-  ],
-  "balance": {
-    "amount": 3750
-  }
+  ]
 }

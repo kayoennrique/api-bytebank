@@ -1,27 +1,19 @@
-# Bytebank
-
-Bytebank is a digital banking MVP that is at the beginning of its activities but still has a long way to go.
-
-# JSONServer + JWT Auth
-
-This is a mocked Rest API, using json-server and JWT.
-
 ## 🛠️ Installation
 
 ```bash
 $ npm install
-$ npm run start-api
+$ npm run dev
 ```
 
 ## 🛠️ How to register?
 
-You can do this by making a post request to:
+You can register by making a post request to:
 
 ```
-POST http://localhost:8000/public/cadastrar
+POST http://localhost:8000/users/register
 ```
 
-With the following data:
+With the following data for example:
 
 ```
 {
@@ -31,14 +23,14 @@ With the following data:
 }
 ```
 
-Note that email is a unique field and users with duplicate emails will not be persisted.
+Email is a unique field and users with duplicate emails will not be persisted.
 
 ## 🛠️ How to log in?
 
-You can do this by making a post request to:
+You can log in by making a post request to:
 
 ```
-POST http://localhost:8000/public/login
+POST http://localhost:8000/users/login
 ```
 
 With the following data:
@@ -69,4 +61,4 @@ Authorization: Bearer <ACCESS_TOKEN>
 
 ## 📚 More course information
 
-Bytebank is a project used throughout the React training: Testing your Front-end, and this API will be used in some courses :)
+Bytebank is a project used throughout React training: Improve your applications with automated tests, and this API will be used in some courses :)
